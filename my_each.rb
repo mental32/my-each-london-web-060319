@@ -1,5 +1,5 @@
 def my_each(s)
-  if has_block?
+  if block_given??
 
     step = 0
     limit = s.size
