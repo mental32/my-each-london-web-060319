@@ -1,4 +1,4 @@
-def my_each # put argument(s) here
+def my_each()
   if has_block?
 
     step = 0
