@@ -5,7 +5,7 @@ def my_each(s)
     limit = s.size
 
     while step != limit do
-      yield(part)
+      yield(s[step])
       step += 1
     end
   end
